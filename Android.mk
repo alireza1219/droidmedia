@@ -86,6 +86,10 @@ LOCAL_SRC_FILES := minimedia.cpp
 LOCAL_C_INCLUDES := frameworks/av/services/camera/libcameraservice \
                     frameworks/av/media/libmediaplayerservice \
 		    frameworks/av/services/audiopolicy \
+		    frameworks/av/services/audiopolicy/service \
+		    frameworks/av/services/audiopolicy/common/include \
+		    frameworks/av/services/audiopolicy/engine/interface \
+		    frameworks/av/services/audiopolicy/common/managerdefinitions/include \
                     system/media/camera/include
 LOCAL_SHARED_LIBRARIES := libcameraservice \
                           libmediaplayerservice \
